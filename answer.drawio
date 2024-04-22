@@ -180,7 +180,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="AscKv5OJ8TlSJ3xA4gjY" name="2b">
-        <mxGraphModel dx="878" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1160" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -263,10 +263,105 @@
         </mxGraphModel>
     </diagram>
     <diagram id="jKp8lnFoO_ODNvvGuu6S" name="2d">
-        <mxGraphModel dx="1102" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="986" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-1" value="網站" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="60" width="160" height="146" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-2" value="身分證字號/居留證號" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-1">
+                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-3" value="金融帳戶" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-1">
+                    <mxGeometry y="56" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-5" value="代領金融代號" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-1">
+                    <mxGeometry y="86" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-4" value="健保卡號" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-1">
+                    <mxGeometry y="116" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-6" value="申請者(民眾)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="90" width="160" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-7" value="填寫資料" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-6">
+                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-8" value="確認資料" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-6">
+                    <mxGeometry y="56" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-10" value="政府機關人員" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="270" width="160" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-11" value="審核資料" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-10">
+                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-12" value="生成普發名單" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-10">
+                    <mxGeometry y="56" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-14" value="第三方系統" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="240" width="160" height="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-15" value="連線戶政系統對比資料" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-14">
+                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-16" value="連線金融機構對比資料" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-14">
+                    <mxGeometry y="56" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-17" value="連線健保局對比資料" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-14">
+                    <mxGeometry y="86" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-19" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8q5j2xyUu0TpCtqpIFyH-7" target="8q5j2xyUu0TpCtqpIFyH-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="130" as="sourcePoint"/>
+                        <mxPoint x="390" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-20" value="1" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;" connectable="0" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-19">
+                    <mxGeometry x="-1" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-21" value="1...*" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;" connectable="0" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-19">
+                    <mxGeometry x="1" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-22" value="" style="triangle;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="70" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-23" value="填寫" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="70" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-24" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;entryX=0.505;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8q5j2xyUu0TpCtqpIFyH-10" target="8q5j2xyUu0TpCtqpIFyH-4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="250" as="sourcePoint"/>
+                        <mxPoint x="470" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-25" value="1" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;" connectable="0" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-24">
+                    <mxGeometry x="-1" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-26" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;" connectable="0" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-24">
+                    <mxGeometry x="1" relative="1" as="geometry">
+                        <mxPoint y="13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-27" value="確認" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="240" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-29" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8q5j2xyUu0TpCtqpIFyH-11" target="8q5j2xyUu0TpCtqpIFyH-16">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="250" as="sourcePoint"/>
+                        <mxPoint x="470" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-30" value="1" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;" connectable="0" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-29">
+                    <mxGeometry x="-1" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-31" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontFamily=Helvetica;fontSize=12;" connectable="0" vertex="1" parent="8q5j2xyUu0TpCtqpIFyH-29">
+                    <mxGeometry x="1" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8q5j2xyUu0TpCtqpIFyH-32" value="對接資料" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="270" width="60" height="30" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
