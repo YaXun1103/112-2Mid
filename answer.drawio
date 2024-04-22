@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="ASTWp4ZXTidoFe2xOwB_" name="1b">
-        <mxGraphModel dx="1409" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1409" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -77,7 +77,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="YNBZmlXG5lnyesX3e9GX" name="1d">
-        <mxGraphModel dx="986" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="986" dy="307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -180,10 +180,85 @@
         </mxGraphModel>
     </diagram>
     <diagram id="AscKv5OJ8TlSJ3xA4gjY" name="2b">
-        <mxGraphModel dx="1102" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="878" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-1" value="申請者(民眾)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="240" width="70" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-2" value="金融機構" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="190" width="70" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-3" value="健保局" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="350" width="70" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-4" value="政府機關人員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="520" width="70" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-5" value="戶政系統" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="40" width="70" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-6" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="94" width="210" height="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-7" value="申請者進入前台網站進行資料填寫，包括身分證字號、金融代號、帳號和健保卡號等。" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="KlPI7CQG69xYGHD1IvLA-6">
+                    <mxGeometry x="15" y="25" width="180" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-8" value="申請者在填寫完資訊後進行最後一次確認，確認無誤後提交申請。" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="KlPI7CQG69xYGHD1IvLA-6">
+                    <mxGeometry x="15" y="120" width="180" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-9" value="戶政系統、金融機構以及健保局對申請者提交的資料進行審核，確保申請者符合政策要求。" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="KlPI7CQG69xYGHD1IvLA-6">
+                    <mxGeometry x="15" y="210" width="180" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-10" value="政府機關人員進入後台系統查詢每日提交的申請資訊，確保系統正常運行並及時發現任何異常資訊。" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="KlPI7CQG69xYGHD1IvLA-6">
+                    <mxGeometry x="15" y="300" width="180" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-11" value="根據政府機關人員的審核結果，將符合資格的申請者寫入普發名單，準備後續發放補助金。" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="KlPI7CQG69xYGHD1IvLA-6">
+                    <mxGeometry x="15" y="390" width="180" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-12" value="" style="endArrow=none;html=1;fontFamily=Helvetica;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KlPI7CQG69xYGHD1IvLA-1" target="KlPI7CQG69xYGHD1IvLA-7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="130" y="300" as="sourcePoint"/>
+                        <mxPoint x="180" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-13" value="" style="endArrow=none;html=1;fontFamily=Helvetica;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KlPI7CQG69xYGHD1IvLA-4" target="KlPI7CQG69xYGHD1IvLA-11">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="690" as="sourcePoint"/>
+                        <mxPoint x="310" y="640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-14" value="" style="endArrow=none;html=1;fontFamily=Helvetica;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KlPI7CQG69xYGHD1IvLA-4" target="KlPI7CQG69xYGHD1IvLA-10">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="400" as="sourcePoint"/>
+                        <mxPoint x="350" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-15" value="" style="endArrow=none;html=1;fontFamily=Helvetica;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KlPI7CQG69xYGHD1IvLA-1" target="KlPI7CQG69xYGHD1IvLA-8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="400" as="sourcePoint"/>
+                        <mxPoint x="350" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-16" value="" style="endArrow=none;html=1;fontFamily=Helvetica;fontSize=12;exitX=0.974;exitY=0.325;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KlPI7CQG69xYGHD1IvLA-9" target="KlPI7CQG69xYGHD1IvLA-5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="400" as="sourcePoint"/>
+                        <mxPoint x="350" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-17" value="" style="endArrow=none;html=1;fontFamily=Helvetica;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KlPI7CQG69xYGHD1IvLA-9" target="KlPI7CQG69xYGHD1IvLA-2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="400" as="sourcePoint"/>
+                        <mxPoint x="350" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KlPI7CQG69xYGHD1IvLA-18" value="" style="endArrow=none;html=1;fontFamily=Helvetica;fontSize=12;exitX=0.953;exitY=0.713;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KlPI7CQG69xYGHD1IvLA-9" target="KlPI7CQG69xYGHD1IvLA-3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="400" as="sourcePoint"/>
+                        <mxPoint x="350" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
